@@ -1,0 +1,107 @@
+/*
+* @Author: Administrator
+* @Date:   2017-10-05 18:40:39
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-10-05 19:06:32
+*/
+@import url('base.css');
+body{
+	background: #f0f0f0;
+}
+header{
+	width: 100%;
+	height: .8rem;
+	background: black;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+header h1{
+	font-size: .5rem;
+	color: white;
+	line-height: .8rem;
+	letter-spacing: .05rem;
+}
+section{
+	width: 100%;
+	height: 3rem;
+	background: yellow;
+	position: relative;
+	text-align: center;
+	margin-bottom: .08rem;
+}
+section:first-of-type{
+	margin-top: .8rem;
+}
+section:last-of-type{
+	margin-bottom: 1rem;
+}
+section img{
+	width: 100%;
+	height: 100%;
+}
+.zhezhao{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+}
+section p{
+	width: 60%;
+	height: 40%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size: .3rem;
+    color: white;
+}
+.bottom{
+	padding-top: .08rem;
+	padding-bottom: .08rem;
+	width: 100%;
+	height: .8rem;
+	background: #272822;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 99;
+	padding-left: .28rem;
+	padding-right: .28rem;
+	display: flex;
+	justify-content: space-between;
+}
+.icon-shouye,.icon-wode{
+	font-family: 'iconfont';
+	font-size: .3rem;
+	/* width: 15%; */
+	/* height: 60%; */
+	color: #f0f0f0;
+}
+.icon-mudedi5,.icon-dengpao{
+	font-family: 'iconfont';
+	font-size: .3rem;
+	/* width: 15%; */
+	/* height: 60%; */
+	color: #f0f0f0;
+}
+.bottom > a{
+	display: block;
+	width: 15%;
+	height: 90%;
+	text-align: center;
+}
+.bottom > a > p{
+	font-size: .18rem;
+	color: white;
+	margin-top: .03rem;
+}
+.faxian div,a.faxian > p{
+	color: #B4B412;
+}

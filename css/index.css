@@ -1,0 +1,244 @@
+/*
+* @Author: Administrator
+* @Date:   2017-10-04 13:00:19
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-10-05 14:56:29
+*/
+@import url('base.css');
+body{
+	background: #f0f0f0;
+}
+header{
+	width: 100%;
+	height: .8rem;
+	background: black;
+	text-align: center;
+	 position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100; 
+}
+header h1{
+	font-size: .5rem;
+	color: white;
+	line-height: .8rem;
+	letter-spacing: .05rem;
+}
+.search{
+	width: 100%;
+	height: .7rem;
+	/* background: red; */
+	padding-left: .08rem;
+	padding-right: .08rem;
+	margin-top: .9rem;
+	margin-bottom: .08rem;
+	/*position: fixed;
+	top: .9rem;
+	left: 0;
+	z-index: 100; */
+	
+}
+.search > main{
+	background: white;
+	width: 100%;
+	height: 100%;
+	padding-left: .08rem;
+	border-radius: 5%;
+	display: flex;
+	justify-content: space-between;
+}
+.sousuo{
+	width: 90%;
+	height: 100%;
+	background: white;
+	border: 0;
+	font-size: .26rem;
+	color: white;
+}
+.icon-sousuo{
+	font-family: 'iconfont';
+	width: 5%;
+	height: 100%;
+	color: black;
+	font-size: .38rem;
+	line-height: .7rem;
+}
+.banner{
+	width: 100%;
+	height: 3.22rem;
+	/* background: red; */
+	position: relative;
+	display: block;
+	/*margin-top: 1.7rem;*/
+	 /*margin-top: 0.89rem; */
+}
+.banner img{
+	width: 100%;
+	height: 3.22rem;
+}
+.today{
+	width: 100%;
+	/* height: 4.2rem; */
+	/* background: yellow; */
+	padding-left: .08rem;
+	padding-right: .08rem;
+	margin-top: .3rem;
+	margin-bottom: .08rem;
+}
+.today h2{
+    font-size: .3rem;
+    color: black;
+    margin-bottom: .08rem;
+}
+.today > p:nth-of-type(1){
+    font-size: .2rem;
+    color: black;
+    margin-bottom: .08rem;
+}
+.today > img{
+	width: 100%;
+	height: 3.22rem;
+}
+.today > p:nth-of-type(2){
+    font-size: .16rem;
+    color: #888;
+    margin-bottom: .08rem;
+}
+.today-last{
+	width: 100%;
+	height: 2rem;
+	/* background: red; */
+	display: flex;
+	justify-content: space-between;
+	margin-top: .25rem;
+}
+.today-last > img{
+	width: 40%;
+	height: 100%;
+}
+.word{
+	width: 57%;
+	height: 100%;
+	/* background: pink; */
+}
+div.word > h3{
+	font-size: .2rem;
+    color: black;
+    margin-bottom: .08rem;
+}
+div.word > p:nth-of-type(1){
+    font-size: .14rem;
+    color: #888;
+    margin-bottom: .08rem;
+}
+div.word > p:nth-of-type(2){
+    font-size: .14rem;
+    color: black;
+    margin-bottom: .08rem;
+
+}
+.word > p > span{
+    font-size: .2rem;
+    color: #B4B412;
+    margin-right: .05rem;
+}
+.icon-mudedi1{
+	font-family: 'iconfont';
+	font-size: .2rem;
+    color: #B4B412;
+}
+.bottom{
+	padding-top: .08rem;
+	padding-bottom: .08rem;
+	width: 100%;
+	height: .8rem;
+	background: #272822;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 99;
+	padding-left: .28rem;
+	padding-right: .28rem;
+	display: flex;
+	justify-content: space-between;
+}
+.icon-shouye,.icon-wode{
+	font-family: 'iconfont';
+	font-size: .3rem;
+	/* width: 15%; */
+	/* height: 60%; */
+	color: #f0f0f0;
+}
+.icon-mudedi5,.icon-dengpao{
+	font-family: 'iconfont';
+	font-size: .3rem;
+	/* width: 15%; */
+	/* height: 60%; */
+	color: #f0f0f0;
+}
+.bottom > a{
+	display: block;
+	width: 15%;
+	height: 90%;
+	text-align: center;
+}
+.bottom > a > p{
+	font-size: .18rem;
+	color: white;
+	margin-top: .03rem;
+}
+.shouye div,a.shouye > p{
+	color: #B4B412;
+}
+.youxuan{
+	padding-left: .08rem;
+	padding-right: .08rem;
+	margin-top: .3rem;
+	margin-bottom: .08rem;
+	position: relative;
+}
+.youxuan div{
+	position: absolute;
+	top: 0;
+	right: 5%;
+	font-size: .5rem;
+}
+.youxuan h3{
+	font-size: .3rem;
+}
+.youxuan p{
+	font-size: .16rem;
+	margin-top: .08rem;
+}
+.middle{
+	/* width: 310%; */
+	/* height: 4.22rem; */
+	position: relative;
+	/* padding-left: .08rem; */
+}
+.middle img{
+	width: 100%;
+	height: 3.22rem;
+	padding-left: .08rem;
+	padding-right: .08rem;
+}
+.middle span{
+	position: absolute;
+	top: 2.22rem;
+	left: 0;
+	background: rgba(180, 180, 19, 0.6);
+    font-size: .28rem;
+    color: black;
+    margin-left: .08rem;
+    /* color: #B4B412; */
+    /* margin-top: .05rem; */
+}
+.middle p{
+	font-size: .2rem;
+    color: black;
+    padding-left: .08rem;
+    /* margin-top: .05rem; */
+}
+.middle:last-of-type{
+	margin-bottom: 1rem;
+}

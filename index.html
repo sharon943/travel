@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>寻舍</title>
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="css/swiper.min.css">
+    <script src="js/swiper.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/iscroll.js"></script>
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="font3/iconfont.css">
+	<!-- <link rel="stylesheet" href="font/iconfont.css"> -->
+	<script src="js/rem.js"></script>
+	  <style>
+        body{
+            /*overflow: hidden;*/
+        }
+       /* .iScrollHorizontalScrollbar{
+            position: absolute;
+            left: 0;
+            right: 0;
+            width: 10px;
+            height: 100%;
+        }
+        .iScrollIndicator{
+            width: 100%;
+            height: 10px;
+            background: #666;
+        }
+        #wrapper {
+            position: absolute;
+            z-index: 1;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: calc(100vh-44px);
+            /*position: relative; */
+             /*overflow: hidden; */
+        }
+
+        #scroller {
+            position: absolute;
+            z-index: 1;
+            width: 100%;
+            transform: translateZ(0);
+            user-select: none;
+            text-size-adjust: none;
+        }*/
+    </style> 
+</head>
+<body>
+   
+	<header>
+		<h1>寻舍精品</h1>
+	</header>
+	<!-- <div id="wrapper">
+    <div id="scroller">  -->
+	<div class="search">
+	<main>
+	 <div class="icon-sousuo"></div>
+		<input type="text" class="sousuo" placeholder="搜索目的地/酒店名称">
+	</main>
+	</div>
+		<div class="swiper-container banner">
+	        <div class="swiper-wrapper">
+	            <div class="swiper-slide"><img src="img/5.jpg" alt=""></div>
+	            <div class="swiper-slide"><img src="img/2.jpg" alt=""></div>
+	            <div class="swiper-slide"><img src="img/3.jpg" alt=""></div>
+	           
+	        </div>
+
+           <div class="swiper-pagination"></div>
+       </div>
+       <div class="today">
+       	  <h2>今日寻舍</h2>
+       	  <p>每日寻觅一家精致美舍</p>
+       	  <img src="img/8.jpg" alt="">
+       	  <p>有茶有酒有故事，在大鹏古城，把生活酿成诗</p>
+       	  <a href="detail.html" class="today-last">
+       	  	<img src="img/9.jpg" alt="">
+       	  	<div class="word">
+       	  		<h3>深圳大鹏一颗花树正好开民宿</h3>
+       	  		<p>懒奢潮宿、花镜院子、天然瑶池、深...</p>
+       	  		<p><span>￥340</span>起</p>
+       	  		<div class="icon-mudedi1">深圳</div>
+       	  	</div>
+       	  </a>
+       </div>
+       <div class="youxuan">
+       	 <h3>本季精选</h3>
+       	 <p>国庆不涨价优选店</p>
+       	 <div>&gt;</div>
+       </div>
+      <div class="swiper-container middle">
+       <div class="swiper-wrapper midd">
+            <div class="swiper-slide">
+            	<img src="img/11.jpg" alt="">
+            	<p>张家界欢喜无厌.龍舍</p>
+            	<span>￥1152起/晚</span>
+            </div>
+            <div class="swiper-slide">
+            	<img src="img/12.jpg" alt="">
+            	<p>非梵酒店·香格里拉店(新人文主义店)</p>
+            	<span>￥855起/晚</span>
+            </div>
+            <div class="swiper-slide">
+            	<img src="img/13.jpg" alt="">
+            	<p>海口美兰皇马假日海岛风情酒店</p>
+            	<span>￥349起/晚</span>
+            </div>
+       
+        </div>
+        
+       </div>
+        <div class="youxuan">
+       	 <h3>亲子</h3>
+       	 <p>带着孩子去旅行，迎着阳光，快乐成长</p>
+       	 <div>&gt;</div>
+       </div>
+      <div class="swiper-container middle">
+       <div class="swiper-wrapper midd">
+            <div class="swiper-slide">
+            	<img src="img/17.jpg" alt="">
+            	<p>常州一号农场名都庄园酒店</p>
+            	<span>￥387起/晚</span>
+            </div>
+            <div class="swiper-slide">
+            	<img src="img/15.jpg" alt="">
+            	<p>海口皇马假日南阳博物馆主题酒店</p>
+            	<span>￥321起/晚</span>
+            </div>
+            <div class="swiper-slide">
+            	<img src="img/16.jpg" alt="">
+            	<p>三亚亚龙湾华宇度假酒店</p>
+            	<span>￥588起/晚</span>
+            </div>
+       
+        </div>
+        
+       </div>
+       <div class="youxuan">
+       	 <h3>私董会</h3>
+       	 <p>高端社交，轻松参会</p>
+       	 <div>&gt;</div>
+       </div>
+      <div class="swiper-container middle">
+       <div class="swiper-wrapper midd">
+            <div class="swiper-slide">
+            	<img src="img/18.jpg" alt="">
+            	<p>杭州西湖柳莺里酒店</p>
+            	<span>￥1710起/晚</span>
+            </div>
+            <div class="swiper-slide">
+            	<img src="img/19.jpg" alt="">
+            	<p>深圳隐秀山居酒店</p>
+            	<span>￥989起/晚</span>
+            </div>
+            <div class="swiper-slide">
+            	<img src="img/21.jpg" alt="">
+            	<p>青城山在云端度假酒店</p>
+            	<span>￥254起/晚</span>
+            </div>
+       
+        </div>
+        
+       </div>
+       <div class="youxuan">
+       	 <h3>蜜月</h3>
+       	 <p>每天都是初恋的味道</p>
+       	 <div>&gt;</div>
+       </div>
+      <div class="swiper-container middle">
+       <div class="swiper-wrapper midd">
+            <div class="swiper-slide">
+            	<img src="img/bc212226b3b5a023ea55bf9749b1dbb7.jpg" alt="">
+            	<p>香水湾君澜度假酒店</p>
+            	<span>￥3471起/晚</span>
+            </div>
+            <div class="swiper-slide">
+            	<img src="img/8.jpg" alt="">
+            	<p>丽江瓦蓝旅居·意庐</p>
+            	<span>￥432起/晚</span>
+            </div>
+            <div class="swiper-slide">
+            	<img src="img/35.jpg" alt="">
+            	<p>深圳凯谋概念酒店</p>
+            	<span>￥646起/晚</span>
+            </div>
+       
+        </div>
+        
+       </div>
+       <div class="youxuan">
+       	 <h3>休闲</h3>
+       	 <p>拥抱大自然的美好时光</p>
+       	 <div>&gt;</div>
+       </div>
+      <div class="swiper-container middle">
+       <div class="swiper-wrapper midd">
+            <div class="swiper-slide">
+            	<img src="img/25.jpg" alt="">
+            	<p>广州慕吉云溪度假山庄</p>
+            	<span>￥456起/晚</span>
+            </div>
+            <div class="swiper-slide">
+            	<img src="img/26.jpg" alt="">
+            	<p>乌镇子夜幕宿精品民宿</p>
+            	<span>￥612起/晚</span>
+            </div>
+            <div class="swiper-slide">
+            	<img src="img/27.jpg" alt="">
+            	<p>御雅轩精品客栈(西塘临河店)</p>
+            	<span>￥705起/晚</span>
+            </div>
+       
+        </div>
+        
+       </div>
+       <div class="youxuan">
+       	 <h3>轰趴</h3>
+       	 <p>专注轰趴，任你狂欢</p>
+       	 <div>&gt;</div>
+       </div>
+      <div class="swiper-container middle">
+       <div class="swiper-wrapper midd">
+            <div class="swiper-slide">
+            	<img src="img/28.jpg" alt="">
+            	<p>上海蓝莲花开客栈朱家角店</p>
+            	<span>￥342起/晚</span>
+            </div>
+            <div class="swiper-slide">
+            	<img src="img/29.jpg" alt="">
+            	<p>深圳较场尾怡精品酒店</p>
+            	<span>￥836起/晚</span>
+            </div>
+            <div class="swiper-slide">
+            	<img src="img/31.jpg" alt="">
+            	<p>大连途家欢墅(金石滩鲁能优山美地店)</p>
+            	<span>￥888起/晚</span>
+            </div>
+       
+        </div>
+        
+       </div>
+    <!-- </div>
+    </div> -->
+    <div class="bottom">
+       <a href="index.html" class="shouye">
+       	 <div class="icon-shouye"></div>
+       	 <p>首页</p>
+       </a>
+       <a href="aim-hot.html" class="mudi">
+       	 <div class="icon-mudedi5"></div>
+       	 <p>目的地</p>
+       </a>
+       <a href="find.html" class="faxian">
+       	  <div class="icon-dengpao"></div>
+       	  <p>发现</p>
+       </a>
+       <a href="mine.html" class="wode">
+        	<div class="icon-wode"></div>
+        	<p>我的</p>
+       </a>   	    	
+    </div>
+</body>
+</html>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        paginationClickable: true,
+        spaceBetween: 30,
+        centeredSlides: true,
+        // autoplay: 2500,
+        autoplayDisableOnInteraction: false
+    });
+   
+    // var myScroll = new IScroll('#wrapper', {
+    //     scrollbars:'custom',
+    //     scrollbars: true,
+    //     mouseWheel: true,
+    //     interactiveScrollbars: true,
+    //     shrinkScrollbars: 'scale',
+    //     fadeScrollbars: true
+    // });
+    </script>

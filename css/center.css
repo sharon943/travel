@@ -1,0 +1,178 @@
+/*
+* @Author: Administrator
+* @Date:   2017-10-09 18:42:45
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-10-09 21:59:28
+*/
+@import url('base.css');
+header{
+	width: 100%;
+	height: 1.55rem;
+	background: #DF3031;
+	position: relative;
+}
+body{
+	background: #E5EAED;
+}
+.head{
+	width: 90%;
+	height: 1.66rem;
+	background: white;
+	margin: 0 auto;
+	position: absolute;
+	padding-left: .25rem;
+	padding-right: .25rem;
+	top: .4rem;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.3);
+}
+.top{
+	width: 100%;
+	height: 30%;
+	margin-top: 10%;
+	/* background: yellow; */
+	display: flex;
+	justify-content: space-between;
+}
+.top-left{
+	width: .48rem;
+	height: .48rem;
+	border-radius: 50%;
+	background: gray;
+}
+.top-left img{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+.top-middle{
+	width: 50%;
+    height: .48rem;
+}
+.top-middle > p:first-child{
+    font-size: .14rem;
+    color: black;
+}
+.top-middle > p:last-child{
+    font-size: .12rem;
+    color: #888;
+}
+.top-bottom{
+	width: .56rem;
+	height: 50%;
+	border-radius: .1rem;
+	margin-top: 4%;
+	background: #FF8540;
+	/* text-align: center; */
+	padding-left: .05rem;
+	padding-right: .05rem;
+	display: flex;
+	justify-content: space-between;
+}
+.icon-jinbi-copy{
+	font-family: 'iconfont';
+	font-size: .15rem;
+	color: white;
+	line-height: 180%;
+}
+.top-bottom > span{
+	font-size: .12rem;
+	text-decoration: underline;
+	margin-top: .02rem;
+	margin-left: .02rem;
+	color: white;
+}
+.bottom{
+	width: 100%;
+	height: .53rem;
+	padding-top: .25rem;
+	padding-left: .25rem;
+	margin-top: .25rem;
+	/* background: pink; */
+	display: flex;
+	justify-content: space-between;
+}
+.shou{
+	width: 20%;
+	height: .53rem;
+	margin-top: -10%;
+	margin-left: -10%;
+	/* background: gray; */
+	text-align: center;
+	font-size: .15rem;
+    color: #B7B7B7;
+}
+.shou span{
+	font-size: .15rem;
+	color: #E34D4E;
+}
+.fir-patr{
+	width: 100%;
+	height: 1.55rem;
+	padding-left: .15rem;
+	padding-right: .15rem;
+	background: white;
+	padding-top: .74rem;
+}
+.line-1{
+	width: 100%;
+	height: .22rem;
+	/* position: relative; */
+	
+	display: flex;
+}
+.icon-lingdang,.icon-shezhi_fuzhi,.icon-wallet-circled,.icon-quanchengbofangwuguanggaoduochangxianxiahuodong,.icon-wallet-circled,.icon-coin{
+	font-family: 'iconfont';
+	width: 10%;
+	height: 100%;
+	color: #DDD8D4;
+	font-size: .2rem;
+	line-height: .22rem;
+}
+.line-1 p{
+	width: 30%;
+	height: 100%;
+	color: #404040;
+	line-height: .22rem;
+	font-size: .19rem;
+	margin-right: .06rem;
+}
+.line-1 span{
+	width: 38%;
+	height: 100%;
+	color: #B7B7B7;
+	font-size: .12rem;
+	line-height: .22rem;
+	margin-left: .66rem;
+	/* position: absolute;
+	top: 0;
+	bottom: 0;
+	margin-top: auto;
+	margin-bottom: auto;
+	right: 0; */
+}
+.sec-part .line-1 span{
+	width: 49%;
+	margin-left: .3rem;
+}
+.sec-part .line2 span{
+    width: 56%;
+	margin-left: .1rem;
+}
+.line2{
+	margin-top: .23rem;
+}
+.sec-part{
+	margin-top: .23rem;
+	padding-top: .14rem;
+}
+.thir-part{
+	height: .55rem;
+	margin-top: .23rem;
+	padding-top: .14rem;
+}
+
+

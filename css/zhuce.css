@@ -1,0 +1,121 @@
+/*
+* @Author: Administrator
+* @Date:   2017-10-06 17:44:07
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-10-06 18:00:17
+*/
+@import url('base.css');
+body{
+	background: #1D202C;
+	/* text-align: center; */
+}
+header{
+	width: 100%;
+	height: .8rem;
+	background: #1D202C;
+	text-align: center;
+	position: relative;
+	padding-left: .08rem;
+	/* position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100; */
+	margin-bottom: .6rem;
+}
+header p{
+	font-size: .45rem;
+	color: white;
+	line-height: .8rem;
+	letter-spacing: .05rem;
+}
+.icon-fanhuijian-zuo{
+	font-family: 'iconfont';
+	width: 5%;
+	height: 50%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	margin-top: auto;
+	margin-bottom: auto;
+	font-size: .4rem;
+	color: white;
+}
+.user{
+	width: 95%;
+	height: 1.2rem;
+	padding-left: .08rem;
+	padding-right: .08rem;
+	border-bottom: .02rem solid white;
+	/* background: red;	 */
+	margin: 0 auto;
+	justify-content: space-between;
+	display: flex;
+	padding-bottom: 1.3rem;
+	margin-top: .3rem;
+	position: relative;
+}
+.yan{
+	position: absolute;
+	top: 55%;
+	right: 0;
+	width: 30%;
+	height: 40%;
+	border-radius: 1rem;
+	border: .02rem solid white;
+	color: white;
+	font-size: .3rem;
+	line-height: 155%;
+	text-align: center;
+
+}
+.icon-wode,.icon-suo,.icon-wenben1{
+	font-family: 'iconfont';
+	width: 10%;
+	height: 30%;
+	line-height: 1.2rem;
+	font-size: .6rem;
+	color: white;
+}
+.word{
+	width: 80%;
+	height: 10%;
+	/* background: yellow; */
+}
+.word p{
+	font-size: .3rem;
+	width: 100%;
+	height: 50%;
+	letter-spacing: .08rem;
+	color: white;
+	/* float: left; */
+}
+input{
+	background: #1D202C;
+	color: #888;
+	border: 0;
+	font-size: .3rem;
+	outline: 0;
+}
+.last-two{
+	padding-left: .22rem;
+	padding-right: .22rem;
+	width: 100%;
+	height: .8rem;
+	display: flex;
+	justify-content: space-between;
+	margin-top: .5rem;
+	margin-bottom: .5rem;
+}
+.icon-youjiantou{
+	font-family: 'iconfont';
+	width: 100%;
+	height: .8rem;
+	background: #DDB867;
+	/* border-radius: 1rem; */
+	text-align: center;
+	line-height: .8rem;
+	color: black;
+	font-size: .3rem;
+	margin-top: 4.65rem;
+}
